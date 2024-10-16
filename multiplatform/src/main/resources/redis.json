@@ -1,0 +1,9 @@
+[{
+  "j1": {
+	"host": "localhost",
+	"port": 3306,
+	"connectionTimeout": 2000,
+	"soTimeout": 2000,
+	"ssl": true
+  }
+}]

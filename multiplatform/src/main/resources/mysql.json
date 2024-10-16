@@ -1,0 +1,8 @@
+[{
+  "global": {
+    "host": "localhost",
+    "database": "fm_global",
+    "user": "1",
+    "password": "1"
+  }
+}]

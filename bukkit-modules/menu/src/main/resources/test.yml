@@ -1,0 +1,14 @@
+title: 'Тест'
+commands:
+  - 'test'
+open_sound: note_bell
+close_sound: no
+rows:
+  - 'AAAAAAAAA'
+  - 'A0000000A'
+  - 'A0000000A'
+  - 'A0000000A'
+  - 'AAAAAAAAA'
+items:
+  A:
+    id: '160:7'

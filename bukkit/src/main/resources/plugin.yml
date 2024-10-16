@@ -1,0 +1,8 @@
+main: ru.galaxy773.bukkit.api.BukkitPlugin
+name: BukkitAPI
+version: 1.0
+author: Galaxy773
+api-version: 1.16
+load: STARTUP
+depend: [ViaVersion]
+softdepend: [ProtocolLib]

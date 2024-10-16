@@ -1,0 +1,6 @@
+name: Boxes
+main: ru.galaxy773.boxes.Boxes
+version: 1.0
+author: Galaxy773
+api-version: 1.16
+depend: [BukkitAPI, Cosmetics]

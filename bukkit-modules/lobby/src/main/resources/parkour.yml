@@ -1,0 +1,23 @@
+ways:
+  '1':
+    start_location: lobby;80;86;-45;0;-90
+    end_location: lobby;-13;111;14
+    top_location: lobby;83.5;90;-41.5
+    gold_reward: 500
+    exp_reward: 500
+    checkpoints:
+    - lobby;82;97;-63;0;90
+    - lobby;48;111;-89;0;90
+    - lobby;-47;107;-90;0;0
+    - lobby;-64;102;-33;0;0
+  '2':
+    start_location: lobby;-31;90;16;0;45
+    end_location: lobby;15;111;15
+    top_location: lobby;-26.5;94;18.5
+    gold_reward: 500
+    exp_reward: 500
+    checkpoints:
+    - lobby;-32;98;53;0;0
+    - lobby;-25;108;98;0;-90
+    - lobby;9;113;97;0;180
+    - lobby;29;115;62;0;180

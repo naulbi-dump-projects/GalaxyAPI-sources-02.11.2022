@@ -1,0 +1,52 @@
+package ru.galaxy773.multiplatform.api.gamer.customization;
+
+import gnu.trove.map.TIntObjectMap;
+import gnu.trove.map.hash.TIntObjectHashMap;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import ru.galaxy773.multiplatform.api.gamer.constants.Group;
+import java.util.Arrays;
+
+@RequiredArgsConstructor
+public enum QuitMessage {
+
+    NONE(-1, Group.DEFAULT, ""),
+    QUIT_MESSAGE_1(1, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u043A\u0438\u043D\u0443\u043B \u043D\u0430\u0441, \u043D\u043E \u043E\u0431\u0435\u0449\u0430\u043B \u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F..."),
+    QUIT_MESSAGE_2(2, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u0448\u0435\u043B \u043E\u0442\u0434\u044B\u0445\u0430\u0442\u044C"),
+    QUIT_MESSAGE_3(3, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0443\u0448\u0435\u043B \u0432 \u0448\u043A\u043E\u043B\u0443"),
+    QUIT_MESSAGE_4(4, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F \u043A\u0443\u0448\u0430\u0442\u044C"),
+    QUIT_MESSAGE_5(5, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0443\u0448\u0435\u043B \u0433\u043E\u043D\u044F\u0442\u044C \u043C\u044F\u0447"),
+    QUIT_MESSAGE_6(6, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043E\u0442\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F \u0437\u0430 \u0445\u043B\u0435\u0431\u043E\u043C"),
+    QUIT_MESSAGE_7(7, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043E\u0442\u043E\u0448\u0435\u043B \u0432 \u0442\u0443\u0430\u043B\u0435\u0442"),
+    QUIT_MESSAGE_8(8, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043D\u0430\u0438\u0433\u0440\u0430\u043B\u0441\u044F \u0438 \u043F\u043E\u0448\u0435\u043B \u0441\u043F\u0430\u0442\u044C"),
+    QUIT_MESSAGE_9(9, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u0448\u0435\u043B \u0443\u0447\u0438\u0442\u044C \u0443\u0440\u043E\u043A\u0438"),
+    QUIT_MESSAGE_10(10, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0443\u0448\u0435\u043B \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C \u043D\u0430 \u0434\u043E\u043D\u0430\u0442"),
+    QUIT_MESSAGE_11(11, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u0448\u0435\u043B \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0444\u0438\u043A\u0441\u0430\u044F"),
+    QUIT_MESSAGE_12(12, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043B\u0438\u0432\u043D\u0443\u043B \u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u0430"),
+    QUIT_MESSAGE_13(13, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0440\u0430\u0441\u0442\u0432\u043E\u0440\u0438\u043B\u0441\u044F \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435"),
+    QUIT_MESSAGE_14(14, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0443\u0448\u0435\u043B \u043F\u043E\u043C\u043E\u0433\u0430\u0442\u044C \u043C\u0430\u043C\u0435"),
+    QUIT_MESSAGE_15(15, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043B\u0438\u0432\u043D\u0443\u043B \u043F\u043E\u0441\u043B\u0435 \u043F\u043E\u0442\u043D\u043E\u0439 \u043A\u0430\u0442\u043A\u0438"),
+    QUIT_MESSAGE_16(16, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u0448\u0435\u043B \u0432\u044B\u043D\u043E\u0441\u0438\u0442\u044C \u043C\u0443\u0441\u043E\u0440"),
+    QUIT_MESSAGE_17(17, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0440\u0435\u0448\u0438\u043B \u043D\u0430\u0441 \u043F\u043E\u043A\u0438\u043D\u0443\u0442\u044C"),
+    QUIT_MESSAGE_18(18, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u043F\u043E\u043B\u0435\u0442\u0435\u043B \u043F\u043E\u043A\u0443\u043F\u0430\u0442\u044C \u0434\u043E\u043D\u0430\u0442"),
+    QUIT_MESSAGE_19(19, Group.LEGEND, "\u00A7c\u2717\u00A77 %s \u00A76\u0443\u0448\u0435\u043B \u043D\u0435 \u043F\u043E\u043F\u0440\u0430\u0449\u0430\u0432\u0448\u0438\u0441\u044C");
+
+    private final int id;
+    @Getter
+    private final Group group;
+    @Getter
+    private final String message;
+
+    public int getID() {
+        return this.id;
+    }
+
+    private static final TIntObjectMap<QuitMessage> QUIT_MESSAGES = new TIntObjectHashMap<>();
+    public static QuitMessage getQuitMessage(int id) {
+        return QUIT_MESSAGES.get(id);
+    }
+
+    static {
+        Arrays.stream(values()).forEach(QuitMessage -> QUIT_MESSAGES.put(QuitMessage.getID(), QuitMessage));
+    }
+}

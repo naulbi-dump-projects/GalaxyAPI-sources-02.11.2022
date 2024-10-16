@@ -1,0 +1,151 @@
+spawn: lobby;0.5;90;4.5;0;-180
+presents: true
+track_servers:
+- ALL
+- survival-1
+- survival-2
+- oneblock-1
+- oneblock-2
+- lobby-1
+- lobby-2
+jump_pads:
+- lobby;-1;86;-15
+- lobby;0;86;-15
+- lobby;1;86;-15
+- lobby;-2;86;-16
+- lobby;-1;86;-16
+- lobby;0;86;-16
+- lobby;-1;86;-16
+- lobby;-2;86;-17
+- lobby;-1;86;-17
+- lobby;0;86;-17
+- lobby;-1;86;-17
+npc:
+  survival:
+    location: lobby;0.5;87;-54.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTU5ODg4ODI5ODEzNCwKICAicHJvZmlsZUlkIiA6ICJiYWE1Yjg0YzA2NGM0NTBlYjU2NTU4ZDQxOWVmYTkzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYW1lbGxpYWFkYW1zIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmM2ExNjhlMzUxNjg3Yzg0NTdmY2Y5Mzc4NWNlYmQ0YTA4MDcwYWQ4ZjIwMTQxYmJjYTg1OWQyNjVkZTgwYjMiCiAgICB9CiAgfQp9
+    signature: USxg5mCJBslZ/hhx0v2xOlf1LO5GRrt0PUARQB2zbtKaf6CnTQ8i5gadtWwOyV5SGU+2S8wH+i7A//mOIFFz1Zts2BhcXIhsKTIT+Cjq/B5kQWsqvtYvS6GgfSd/jcvmGq5dgcEcwhxXDf6K3ePf9UEEUv0cxRyD/FN7RzdGlHZ1QgS4RbZYzxOuMHTPhsQvOAQ6dENAytT5/KHqVAyubkBSzsWULQAS4F5ULlp0UONNJAJty3STi+wzvo1KcV6VXxwDqrochcFavZGtIfQNz1QJPagZPvGH7KGQXkmXPBxdJRQ7/KcvORZMgotQv4ZwrDL24uWTqDLjpk3jLIs8c0/52gmYiMwUVQ/QE9PfczdIdpUEpf6ZGAfeZ5KkqIvUKYuAfPpgv5KDZqowY4y39g9e+bFrVgFRa0r84I6aGQt7fbJpWrpwkxb3b62atz5V6nR41kdX6wRip7ZDH6JAApnVFVtOx/0iqjlbR26Cz4ks5VYO8WRzM9b5S9lhXT248VWfuvzUJpRar7BBqB9i5i++4Nd/ysFn+GzMmrVrz7sOdAncpOECDDbwPP5L7agOKVCOB5GpN26/bKEhWmqzfuHvyL1BC+StTVoH0LpBntS723ZP0RlnzEr1imgRAXPkT78WrNWMmEv8pyL/S3TLlTmQkFEYxn8heQiBiQ11fa4=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNhNTFiZGRlY2E3ZTQ1ZDhhNGY1MDc1NDAyYThmOTVjMjU4OWY4MTYyYjY3N2NhODFmNjk4NmVjOTJlNSJ9fX0=
+    command: server:survival-1
+  bedwars:
+    location: lobby;4.5;87;-53.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTU5ODg4NzY2MzI3MCwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YwZjBhNjIyMTZkODBlNmM2MmExZDkyMzY0MjQwMGM0ZTkyNTU0Njc0NDZiZjc4MjExNTE1NGIwYTAxZjkwMSIKICAgIH0KICB9Cn0=
+    signature: xoiAWJNJTUqfsXEKqbrN05RF2L1owPZQjwP5xbcuTGD9ilP+pMxHi0oUa7tpyiZY4JN/eaKoJZRLRREwo+tMfAioeQz/ZeoXOWdrxZpQcxAfNaIBz/5A8bQwFEXcRhJhGKaLORz89FBp7gv2Dw9T9oVQtyx2ZNFtuC0Ifc6o9Zp87blRolvcegkqFxS/IkKZUEP1PeNrAM3ewo6/xvXbIejpbknoNfgSOoCa5t0yC4G5mTaVog6Fv5hB9sIwZLK4bV6IqjcnZMDVcONWQRKuhgm9b9Ff1k96MYoSiRyauiGlhJCUnBiCj8LFeuDvQ9PC4ctosVYH01oQpWl0Bn9qpgUNVXhDUN2wDoyCfs+ejQU1aOnpMvsYXK8t88HOGmDFlQoQjIjiUWHGTtgp2jRqzGYxZTn/Wde8NyIsf1O+c78m4wyofW/36/lp/dkDIsjZSVrXznOBH2rBnQJINqKB7euBDc68XDnRcX9GOvN45CoWnYLXRD4U1EuIwO6jgJGVtKPpWAcghQ9cLJhC7N4ABsm0vZuTWmYnSMvswvGqoWB0cYVUrK9AF7uBuxpDtj1FQ40eqKU+xpLl7nv6pcDclM10nyok+Q4Z1TIh7waB81NRa9BGXVcw6leAsAuyeqq2z80N13LoMmATh2mryltoggEiYJ8OfdfCdv4Jp8Do+N4=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0=
+    command: server:BWLobby
+  skywars:
+    location: lobby;-3.5;87;-53.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTU5ODg5MjEyOTg1MSwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQyZmEyMmNmY2ZhZTRkZmJiZmUzODBkMDJkODNjYzBhMWIzOTE3OWNjMDY5N2RkYWRiOGNiNGVhZDA4YmUwMmYiCiAgICB9CiAgfQp9
+    signature: sxyn+qX75OccxqrhtaFnPKpl0MogwupbAvElVyanAnoyfNSh1VJcQBK0nFaFOfKvYt4Fu36jGP5/RQhmn2KlY7fZFckn0KA8JWacPOlUL4tae8kBvWwBHXEDabt7jcWcfo1OlFOQnCPfa18Jaw0HXmKWRGPcYPSPfMkh2aWKuzG5g4JtdIy9YN82jiGF1hcm3m6ntPVHkL4Y+xk00XlQgNjx5/mKBfsWWqBvajTd6aiZwwteaD9ffgQ5tB6uEQN82nd3KqYHCCVQKRrgD8plfXlOiPBe32SDKYlfksTVCc/g/7Ie1mxiPYwkTbax8yd2ERxtW4dhsGA4qTYSDnnsJwVwBnTD0DIVyKOoEsOizgffBAy5IenRSruZ7hTChjrP8aWvveDQdKA80uhYQR8IcM/DkjKjfKzj61UI+BhRhzOZ+O5o1iy/Gqm5doM/HUjYSVBqITF9pprPZo1d0ght7vXnpZQm4E8NM4Ok17Uf7Pd+UAIR2BCiHlzsYN6aRV/gkh6YR4PR5jWCFjNjSAkwu0YRm+3x8WNkIJJMSXY9NGAeveC3omvp77aLkR9O4rnLTi4WtJjmll2V20Or6vSWxtmgGIAPGStnVZ2zucJhXtLG5gKq732P5GAcV8QmH9iu47ldWyVXrP20BpqP2CclqJTyftFWTiMhdkLjx9g8H5g=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiN2MyMWNjNDNkYzE3Njc4ZWU2ZjE2NTkxZmZhYWIxZjYzN2MzN2Y0ZjZiYmQ4Y2VhNDk3NDUxZDc2ZGI2ZCJ9fX0=
+    command: server:SWLobby
+  oneblock:
+    location: lobby;-7.5;87;-51.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTU4ODQ4MDQ3MTE1NiwKICAicHJvZmlsZUlkIiA6ICI3NWRhZGEzZmQ3MDA0MzkwYTdlNDY2NjE1MjZhMTkzMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjbG91ZGZpZWxkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0NzU0MDE0YjVkODE1MGU0ZjNlNDM3YTc2YzgxN2YzYmM5MjFjMjM5OGFmMzFlNDg5YmVlZTU1ZWFhOTZiMzgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    signature: lDQOGazV5B0kEaqcnw3Q78nUi05mclzzkdaU5856A46HBRGLXDqu3409zbR/+4ROtbeM7rHT9JzEk3fMlpoBWF+OssZYSVbqsK7BTJ3PiwoRzsybyDJtYMhclxXALsvy0qxwyUJGOd39BAyverlsX5j7mGWPZCkd/FnPcYCk+JVUqVX10TzIHZWH25KgdFadqA2wAd8dGhDnxOuzK5MGkCeLGCQ5otVxy7Ah9DCQQ2zLVfYXLUlV5PDygHQUHjFQAR/JN1J/v/qNqtkqtbPwA/rahiILJBvLHrZOqmiL7KTsCOCRtujgGlyNeRKKOBMihfDtN1cwW4i6QSeMTEU2DonabA4GfTFIMs4pu23S/PIZQie6+tvkPI+JSoz2oDL4wxUdAvfWMzRMh23iJANoNbVGFF5alhnnJ+IePVrln18MNZPGnm3oXGAGRtXiu8ZHdb7Rf6NsC8TKxqVyBynI/+YOKaOF0Q5zxKouQbZelraspER4e+9nNRS5xQqJGnhTeWMCkRb50Vxgqm/PAg9mUGvTiGxLcVfBDk+qwFPa5/agNH5p+JezLTtTm4AXP6jY3wxXmCw/e1XHeMs/zE8D63JfGhFifzcRnycEtaJtNLwuwhLh4rxZ+I4rDDraOWZH0JXiJJSEhGUtIW9vfG1UNNK8cFrkCbE5v8esatapgRU=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RkMWU2YmQyMTVhZmE1ZTY3MzI4NWFmYWNiODVlYjhkMGY3OWE1YjQ2YzU0MzJkNmZlZWQ2NjA5N2M1MTI0OCJ9fX0=
+    command: server:oneblock-1
+  uhc:
+    location: lobby;8.5;87;-51.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTYxMTEyNzczNTk4MCwKICAicHJvZmlsZUlkIiA6ICIyZDdmZDk2NjAyNDE0YjVkYjI1MTRkYWNlZTcyZDZhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbW9uZ1VzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hN2Q1ZWIwYWVhNWQ2MWJhM2ZmNDk5NjQxNmE5MDA5NmE5ZDc3NjA5ZWJjZDNiMzA4ZjkwNmFlODg4YTQ1ZjZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+    signature: GoIatN18B7WofSawFBU7vxFY+takG72HMQgUfk858ezjWC/cj903U5vYRcFa2LPJSwfmfI11x/1hGE7gxahSpaAOURD6OehSJ8yZdD0FlEbrZqgXdLHwKT8f6NbAoacj0Cz2I626DhfMf058fOI+lAiDJjxC30Ei3aBGB/KA9Gdw2VDxSXpiHpQytILhoFTZu8UouLS+KILd4012YJjvd5dgpBla13UcCjT8398UiPVNVvkWPf4aWu9KhNYdRZINUTFfufJl79f3kanSTlPH02u4HIW+9Z2iiaR0f7U4NWJ/8KCT98ZK248OfsO9UN/ah1CLirwtR1+iLDQ4Rzz/9emCj3B5kMPoF++o0ASipj7blICHw+U5FJsiDr0/bVUJ8OvuzHb+C1+tzYR2P2i7o/3wrD4qGHFEzzaPW3RKo0RCAmVg6fEejhDbFNWphfC2T1y1LB7vOk3Dw3DZ8S4LEdfZbus7gNhFkl1ucNSOFHZr1FuimKDFih7J6vG8uNEEEfKKWqKT1EC73gPyK/LqcsFq8kP71yTXiisf9vWTXcPtrkZ6K0U95CMsePC0scAabZM1wYGetsOv5uKfb90N/uIRQqKU5uWoYtwHDftTOP5bkEDBMLOhslYa7v/6uZUaMnemnXZkdCqdDHlXOeC1xZ8/ejcfYNeH9uRHJuyDsaI=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU5NDRiMzJkYjBlNzE0NjdkYzEzOWNmYzY0NjIwNWIxY2I3NGU4MjlkMmI3M2U1MzA5MzI1YzVkMTRlMDVmYSJ9fX0=
+    command: server:UHCLobby
+  nothing_1:
+    location: lobby;-11.5;87;-49.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTYxNTM0NjM5OTEwMSwKICAicHJvZmlsZUlkIiA6ICI4ZDJlNWNmMmZiMGU0ZGY4OGYwMzBlY2Y0ZDk3NTIxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RoaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwOTkyOTJhYTFmY2FiZjg4ZDQyMDJmZWM4M2M5MThiMWYzODhmOTEzY2M4ZDE1ZmVjMzMxZjU5MjI2MTZiMGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    signature: nproKaQ3o9se2w6wuilbMQ3jbOK4Q3cqL7q24cBoHX77inJcXGBr6tf6RE9/E6THAw/7VAnC1Y8Lkn//OYBiDuhWuiZtMqHQBxhVuzrtrm7tKkRIbK51Yee4QCIubvfnWn75akc0mlPM38YyuXQ057zPkNEKEnKC3KVQ6+xzkkMtgnzUF08LzjH6ang4PrZCVZEOaWzwOqT8Q7vMuI7DcwWt17HPf+l5rQLWZFIdoKN8gdZM9w5/RkgLyp6KX42gQGSNDwujkhYbw74kOrO51Vfri+O3eu0O0guDfgxoUziYpBoyznWebGWVIjYTrxf9MDEGpluu1fWWEuQzwXCreaQpdBkZvptbCpHcke1hAxHPOnk/QSH2VlqTpc1Qi3OsQOO4PGdsm+qz2/Sf4X5KF5BYem3vANuKMAcKBY78cfGJVzCT30XVj7ijYR5WE292IGfR4nZ+VcOxkfj82UnfeIFxWI+qqysh/2YQ7OCevbvZeaG/qwavB8jWe4DmlVxD7yKg/5P7obFkE8yivdAIqbXnZOTvqEXw4+jI+mB/Dp0zSA0SXTqRl26Ss2RQoLMXln4t0CAM9Ti61zrn4uEJjB88TifWPEHnqCjp1bqwDTstU74V3PoMb0xZ2QsBy9Zt2LPqGY/kByIYwlq9ECbI3ZOw6C6yXYX1EfxoXKMTb3E=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    command: ''
+  nothing_2:
+    location: lobby;12.5;87;-49.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTYxNTM0NjM5OTEwMSwKICAicHJvZmlsZUlkIiA6ICI4ZDJlNWNmMmZiMGU0ZGY4OGYwMzBlY2Y0ZDk3NTIxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RoaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwOTkyOTJhYTFmY2FiZjg4ZDQyMDJmZWM4M2M5MThiMWYzODhmOTEzY2M4ZDE1ZmVjMzMxZjU5MjI2MTZiMGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    signature: nproKaQ3o9se2w6wuilbMQ3jbOK4Q3cqL7q24cBoHX77inJcXGBr6tf6RE9/E6THAw/7VAnC1Y8Lkn//OYBiDuhWuiZtMqHQBxhVuzrtrm7tKkRIbK51Yee4QCIubvfnWn75akc0mlPM38YyuXQ057zPkNEKEnKC3KVQ6+xzkkMtgnzUF08LzjH6ang4PrZCVZEOaWzwOqT8Q7vMuI7DcwWt17HPf+l5rQLWZFIdoKN8gdZM9w5/RkgLyp6KX42gQGSNDwujkhYbw74kOrO51Vfri+O3eu0O0guDfgxoUziYpBoyznWebGWVIjYTrxf9MDEGpluu1fWWEuQzwXCreaQpdBkZvptbCpHcke1hAxHPOnk/QSH2VlqTpc1Qi3OsQOO4PGdsm+qz2/Sf4X5KF5BYem3vANuKMAcKBY78cfGJVzCT30XVj7ijYR5WE292IGfR4nZ+VcOxkfj82UnfeIFxWI+qqysh/2YQ7OCevbvZeaG/qwavB8jWe4DmlVxD7yKg/5P7obFkE8yivdAIqbXnZOTvqEXw4+jI+mB/Dp0zSA0SXTqRl26Ss2RQoLMXln4t0CAM9Ti61zrn4uEJjB88TifWPEHnqCjp1bqwDTstU74V3PoMb0xZ2QsBy9Zt2LPqGY/kByIYwlq9ECbI3ZOw6C6yXYX1EfxoXKMTb3E=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    command: ''
+  nothing_3:
+    location: lobby;-15.5;87;-47.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTYxNTM0NjM5OTEwMSwKICAicHJvZmlsZUlkIiA6ICI4ZDJlNWNmMmZiMGU0ZGY4OGYwMzBlY2Y0ZDk3NTIxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RoaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwOTkyOTJhYTFmY2FiZjg4ZDQyMDJmZWM4M2M5MThiMWYzODhmOTEzY2M4ZDE1ZmVjMzMxZjU5MjI2MTZiMGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    signature: nproKaQ3o9se2w6wuilbMQ3jbOK4Q3cqL7q24cBoHX77inJcXGBr6tf6RE9/E6THAw/7VAnC1Y8Lkn//OYBiDuhWuiZtMqHQBxhVuzrtrm7tKkRIbK51Yee4QCIubvfnWn75akc0mlPM38YyuXQ057zPkNEKEnKC3KVQ6+xzkkMtgnzUF08LzjH6ang4PrZCVZEOaWzwOqT8Q7vMuI7DcwWt17HPf+l5rQLWZFIdoKN8gdZM9w5/RkgLyp6KX42gQGSNDwujkhYbw74kOrO51Vfri+O3eu0O0guDfgxoUziYpBoyznWebGWVIjYTrxf9MDEGpluu1fWWEuQzwXCreaQpdBkZvptbCpHcke1hAxHPOnk/QSH2VlqTpc1Qi3OsQOO4PGdsm+qz2/Sf4X5KF5BYem3vANuKMAcKBY78cfGJVzCT30XVj7ijYR5WE292IGfR4nZ+VcOxkfj82UnfeIFxWI+qqysh/2YQ7OCevbvZeaG/qwavB8jWe4DmlVxD7yKg/5P7obFkE8yivdAIqbXnZOTvqEXw4+jI+mB/Dp0zSA0SXTqRl26Ss2RQoLMXln4t0CAM9Ti61zrn4uEJjB88TifWPEHnqCjp1bqwDTstU74V3PoMb0xZ2QsBy9Zt2LPqGY/kByIYwlq9ECbI3ZOw6C6yXYX1EfxoXKMTb3E=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    command: ''
+  nothing_4:
+    location: lobby;16.5;87;-47.5;0;0
+    value: ewogICJ0aW1lc3RhbXAiIDogMTYxNTM0NjM5OTEwMSwKICAicHJvZmlsZUlkIiA6ICI4ZDJlNWNmMmZiMGU0ZGY4OGYwMzBlY2Y0ZDk3NTIxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RoaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUwOTkyOTJhYTFmY2FiZjg4ZDQyMDJmZWM4M2M5MThiMWYzODhmOTEzY2M4ZDE1ZmVjMzMxZjU5MjI2MTZiMGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+    signature: nproKaQ3o9se2w6wuilbMQ3jbOK4Q3cqL7q24cBoHX77inJcXGBr6tf6RE9/E6THAw/7VAnC1Y8Lkn//OYBiDuhWuiZtMqHQBxhVuzrtrm7tKkRIbK51Yee4QCIubvfnWn75akc0mlPM38YyuXQ057zPkNEKEnKC3KVQ6+xzkkMtgnzUF08LzjH6ang4PrZCVZEOaWzwOqT8Q7vMuI7DcwWt17HPf+l5rQLWZFIdoKN8gdZM9w5/RkgLyp6KX42gQGSNDwujkhYbw74kOrO51Vfri+O3eu0O0guDfgxoUziYpBoyznWebGWVIjYTrxf9MDEGpluu1fWWEuQzwXCreaQpdBkZvptbCpHcke1hAxHPOnk/QSH2VlqTpc1Qi3OsQOO4PGdsm+qz2/Sf4X5KF5BYem3vANuKMAcKBY78cfGJVzCT30XVj7ijYR5WE292IGfR4nZ+VcOxkfj82UnfeIFxWI+qqysh/2YQ7OCevbvZeaG/qwavB8jWe4DmlVxD7yKg/5P7obFkE8yivdAIqbXnZOTvqEXw4+jI+mB/Dp0zSA0SXTqRl26Ss2RQoLMXln4t0CAM9Ti61zrn4uEJjB88TifWPEHnqCjp1bqwDTstU74V3PoMb0xZ2QsBy9Zt2LPqGY/kByIYwlq9ECbI3ZOw6C6yXYX1EfxoXKMTb3E=
+    item_in_hand: HEAD:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    command: ''
+holograms:
+  nothing_1:
+    location: lobby;-11.5;89.15;-49.5;0;0
+    lines:
+    - §c§lСкоро здесь что-то будет...
+    - Онлайн §a§l0 §fигроков
+    - §7§l§krgkytrkvmrerlerlerg
+  nothing_2:
+    location: lobby;12.5;89.15;-49.5;0;0
+    lines:
+    - §c§lСкоро здесь что-то будет...
+    - Онлайн §a§l0 §fигроков
+    - §7§l§krgkytrkvmrerlerlerg
+  nothing_3:
+    location: lobby;-15.5;89.15;-47.5;0;0
+    lines:
+    - §c§lСкоро здесь что-то будет...
+    - Онлайн §a§l0 §fигроков
+    - §7§l§krgkytrkvmrerlerlerg
+  nothing_4:
+    location: lobby;16.5;89.15;-47.5;0;0
+    lines:
+    - §c§lСкоро здесь что-то будет...
+    - Онлайн §a§l0 §fигроков
+    - §7§l§krgkytrkvmrerlerlerg
+  survival:
+    location: lobby;0.5;89.15;-54.5;0;0
+    lines:
+    - §e§lВыживание
+    - Выживают §a§l{online:survival-1} §fигроков
+    - §7§lНажмите, чтобы подключиться
+  bedwars:
+    location: lobby;4.5;89.15;-53.5;0;0
+    lines:
+    - §c§lBedWars
+    - Любят поспать §a§l{online:bw-lobby-1} §fигроков
+    - §7§lНажмите, чтобы подключиться
+  amoungus:
+    location: lobby;8.5;89.15;-51.5;0;0
+    lines:
+    - §d§lAmongUs
+    - Летают в космосе §a§l{online:as-lobby-1} §fигроков
+    - §7§lНажмите, чтобы подключиться
+  oneblock:
+    location: lobby;-7.5;89.15;-51.5;0;0
+    lines:
+    - §2§lОдин Блок
+    - Развивают острова §a§l{online:oneblock-1} §fигроков
+    - §7§lНажмите, чтобы подключиться
+  skywars:
+    location: lobby;-3.5;89.15;-53.5;0;0
+    lines:
+    - §b§lSkyWars
+    - Стараются не упасть §a§l{online:sw-lobby-1} §fигроков
+    - §7§lНажмите, чтобы подключиться
+  discord1:
+    location: lobby;-6.5;88.5;-6.5
+    lines:
+    - §9§lDISCORD
+    - §b§ldisc.fixmine.ru
+  discord2:
+    location: lobby;7.5;88.5;-6.5
+    lines:
+    - §9§lDISCORD
+    - §b§ldisc.fixmine.ru
+  info:
+    location: lobby;0.5;92.5;0.5
+    lines:
+    - §c§lВНИМАНИЕ!
+    - §fИз режимов пока что
+    - '§fзапущены только:'
+    - '  §b§lОдинБлок§f, §6§lВыживание'
+    - §fВ течение §aнедели §fбудет
+    - §aдобавлено все§f, чего нет
